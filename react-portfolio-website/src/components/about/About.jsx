@@ -37,18 +37,17 @@ const About = () => {
               <h5>Projects</h5>
               <small>80+ Completed Projects</small>
             </article>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In et
-              ut, officia nam mollitia fugiat adipisci soluta alias iste dolore
-              nesciunt, eveniet suscipit debitis! Pariatur amet accusantium
-              perspiciatis tempore voluptates.
-            </p>
-
-            <a href="#contact" className="btn btn-primary">
-              Let's Talk
-            </a>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In et ut,
+            officia nam mollitia fugiat adipisci soluta alias iste dolore
+            nesciunt, eveniet suscipit debitis! Pariatur amet accusantium
+            perspiciatis tempore voluptates.
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
