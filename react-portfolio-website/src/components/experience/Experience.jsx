@@ -39,29 +39,30 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience__backend"></div>
-        <h3>Backend Development</h3>
-        <div className="experience__content">
-          <article className="experience__details">
-            <BsPatchCheckFill />
-            <h4>Nodejs</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="experience__details">
-            <BsPatchCheckFill />
-            <h4>MongoDB</h4>
-            <small className="text-light">Intermediate</small>
-          </article>
-          <article className="experience__details">
-            <BsPatchCheckFill />
-            <h4>Java</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="experience__details">
-            <BsPatchCheckFill />
-            <h4>Python</h4>
-            <small className="text-light">Experienced</small>
-          </article>
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>Nodejs</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>MongoDB</h4>
+              <small className="text-light">Intermediate</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>Java</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill />
+              <h4>Python</h4>
+              <small className="text-light">Experienced</small>
+            </article>
+          </div>
         </div>
       </div>
     </section>
