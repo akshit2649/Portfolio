@@ -13,59 +13,68 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
       <div className="container testimonials__container">
         <article className="testimonial">
-          <div className="clients__avatar">
+          <div className="client__avatar">
             <img src={AVTR1} alt="" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, exercitationem vitae. Similique, doloremque vitae
-              fugiat voluptatibus quidem error! Laudantium consectetur minus
-              nesciunt autem quo repudiandae enim ratione placeat laborum
-              maiores!
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae, exercitationem vitae. Similique, doloremque vitae fugiat
+            voluptatibus quidem error! Laudantium consectetur minus nesciunt
+            autem quo repudiandae enim ratione placeat laborum maiores!
+          </small>
         </article>
 
         <article className="testimonial">
-          <div className="clients__avatar">
+          <div className="client__avatar">
             <img src={AVTR1} alt="" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, exercitationem vitae. Similique, doloremque vitae
-              fugiat voluptatibus quidem error! Laudantium consectetur minus
-              nesciunt autem quo repudiandae enim ratione placeat laborum
-              maiores!
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae, exercitationem vitae. Similique, doloremque vitae fugiat
+            voluptatibus quidem error! Laudantium consectetur minus nesciunt
+            autem quo repudiandae enim ratione placeat laborum maiores!
+          </small>
         </article>
 
         <article className="testimonial">
-          <div className="clients__avatar">
+          <div className="client__avatar">
             <img src={AVTR1} alt="" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, exercitationem vitae. Similique, doloremque vitae
-              fugiat voluptatibus quidem error! Laudantium consectetur minus
-              nesciunt autem quo repudiandae enim ratione placeat laborum
-              maiores!
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae, exercitationem vitae. Similique, doloremque vitae fugiat
+            voluptatibus quidem error! Laudantium consectetur minus nesciunt
+            autem quo repudiandae enim ratione placeat laborum maiores!
+          </small>
         </article>
 
         <article className="testimonial">
-          <div className="clients__avatar">
+          <div className="client__avatar">
             <img src={AVTR1} alt="" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae, exercitationem vitae. Similique, doloremque vitae
-              fugiat voluptatibus quidem error! Laudantium consectetur minus
-              nesciunt autem quo repudiandae enim ratione placeat laborum
-              maiores!
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae, exercitationem vitae. Similique, doloremque vitae fugiat
+            voluptatibus quidem error! Laudantium consectetur minus nesciunt
+            autem quo repudiandae enim ratione placeat laborum maiores!
+          </small>
+        </article>
+
+        <article className="testimonial">
+          <div className="client__avatar">
+            <img src={AVTR1} alt="" />
+          </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae, exercitationem vitae. Similique, doloremque vitae fugiat
+            voluptatibus quidem error! Laudantium consectetur minus nesciunt
+            autem quo repudiandae enim ratione placeat laborum maiores!
+          </small>
         </article>
       </div>
     </section>
