@@ -37,7 +37,7 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG2} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a
@@ -58,7 +58,7 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a
@@ -79,7 +79,7 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG4} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a
@@ -100,7 +100,7 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG5} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a
@@ -121,7 +121,7 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG6} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <a
