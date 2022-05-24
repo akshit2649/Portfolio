@@ -5,6 +5,12 @@ import { BsMessenger } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
+  const formSubmitHandler = (e) => {
+    e.preventDefault();
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -40,7 +46,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form onSubmit={formSubmitHandler}>
           <input
             type="text"
             name="name"
