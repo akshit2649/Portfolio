@@ -1,18 +1,31 @@
 import React from "react";
 import "./Testimonials.css";
 import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      {" "}
       <h5>Review from Clients</h5>
       <h2>Testimonials</h2>
-      <div className="container testimonials__container">
-        <article className="testimonial">
+      <Swiper
+        className="container testimonials__container"
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={40}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
+      >
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="" />
           </div>
@@ -23,9 +36,9 @@ const Testimonials = () => {
             voluptatibus quidem error! Laudantium consectetur minus nesciunt
             autem quo repudiandae enim ratione placeat laborum maiores!
           </small>
-        </article>
+        </SwiperSlide>
 
-        <article className="testimonial">
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="" />
           </div>
@@ -36,9 +49,9 @@ const Testimonials = () => {
             voluptatibus quidem error! Laudantium consectetur minus nesciunt
             autem quo repudiandae enim ratione placeat laborum maiores!
           </small>
-        </article>
+        </SwiperSlide>
 
-        <article className="testimonial">
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="" />
           </div>
@@ -49,9 +62,9 @@ const Testimonials = () => {
             voluptatibus quidem error! Laudantium consectetur minus nesciunt
             autem quo repudiandae enim ratione placeat laborum maiores!
           </small>
-        </article>
+        </SwiperSlide>
 
-        <article className="testimonial">
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="" />
           </div>
@@ -62,9 +75,9 @@ const Testimonials = () => {
             voluptatibus quidem error! Laudantium consectetur minus nesciunt
             autem quo repudiandae enim ratione placeat laborum maiores!
           </small>
-        </article>
+        </SwiperSlide>
 
-        <article className="testimonial">
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={AVTR1} alt="" />
           </div>
@@ -75,8 +88,8 @@ const Testimonials = () => {
             voluptatibus quidem error! Laudantium consectetur minus nesciunt
             autem quo repudiandae enim ratione placeat laborum maiores!
           </small>
-        </article>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };
